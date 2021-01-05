@@ -20,7 +20,7 @@ object Guardian {
     }
 }
 
-object ABCaseStudy extends App {
+object AtomicRegister extends App {
   val system: ActorSystem[String] = ActorSystem(Guardian(), "ABCaseStudy")
   system ! "start"
 }
